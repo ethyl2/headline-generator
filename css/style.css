@@ -6,18 +6,21 @@ body {
 }
 
 header {
-  background-color: #02D1ED;
+  background-color: #7FF4D5;
 }
 
 h1 {
   color: gray;
-  font-family:'Lakki Reddy', cursive;
   padding-top: 1.2em;
   font-size: 2.6em;
 }
 
 h2{
   color: #028090;
+}
+
+h3 {
+  color: #18B289;
 }
 
 button {
