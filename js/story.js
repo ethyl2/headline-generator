@@ -7,16 +7,18 @@ var sentenceGenerator = function() {
 
   var heroesArray = ["Chicken", "Pickle", "Hamster", "Gerbil", "Cow", "Peacock",
     "Alien", "Little Brother", "Koala", "Ice Princess", "Zombie", "Goldfish",
-    "Drivers Ed Teacher", "Cornsnake", "Baby Penguin"];
+    "Drivers Ed Teacher", "Cornsnake", "Baby Penguin", "Lump of Coal"];
 
   var actionArray = ["Robs", "Rubs", "Writes on", "Sneezes on", "Laughs at",
     "Eats", "Kisses", "Fights", "Steps on", "Plays Air Hockey with",
     "Jumps on", "Hugs", "Pokes", "Tickles", "Smells", "Starts a Rock Band with",
-    "Operates on", "Falls in Love with", "Becomes Partners-in-Crime with"];
+    "Operates on", "Falls in Love with", "Becomes Partners-in-Crime with",
+    "Slimes"];
 
   var foilsArray = ["Chunk of Cheese", "Mouse", "Rat", "Mama Bear", "Papa Bear",
     "Snail", "Slug", "Leech", "Bully", "Hairless Cat", "Earthworm", "Vampire",
-    "Werewolf", "Mummy", "Dirty Sock", "Toothbrush"];
+    "Werewolf", "Mummy", "Dirty Sock", "Toothbrush", "Wicked Witch",
+    "Flying Monkey", "Popular Sandwich Cookie", "Toilet Brush", "Smart Phone"];
 
   var randomNum = Math.floor(Math.random() * heroesArray.length);
   var randomNum2 = Math.floor(Math.random() * actionArray.length);
